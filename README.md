@@ -6,7 +6,7 @@ Projeto simples e funcional que exibe as condições climáticas atuais de qualq
 
 ## 🔗 Acesse o projeto
 
-👉 [Clique aqui para ver online](https://swetonyancelmo.github.io/condicoes-do-tempo/)
+👉 [Clique aqui para ver online](https://condicoes-do-tempo-psi.vercel.app/)
 
 ## 🚀 Funcionalidades
 
