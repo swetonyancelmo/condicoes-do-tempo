@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Condições de Tempo</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#181c2a] to-[#232946] text-[#f4f4f6]"
+  >
+    <main
+      class="w-full max-w-md bg-[#232946cc] rounded-2xl shadow-2xl p-8 flex flex-col gap-8"
+    >
+      <h1
+        class="text-4xl font-bold text-center text-[#8f5cff] tracking-wide mb-2"
+      >
+        Condições do Tempo
+      </h1>
+
+      <section id="search-form">
+        <form class="flex gap-3 w-full">
+          <input
+            type="text"
+            id="input-localizacao"
+            placeholder="Digite a localização..."
+            class="flex-1 h-10 rounded-xl border-none px-4 text-base bg-[#181c2a] text-[#f4f4f6] focus:outline-none focus:ring-2 focus:ring-[#8f5cff55] shadow"
+          />
+          <button
+            id="button-localizacao"
+            type="submit"
+            class="bg-gradient-to-r from-[#8f5cff] to-[#eebbc3] text-[#232946] font-semibold rounded-xl px-6 h-10 shadow transition hover:brightness-110 hover:shadow-lg"
+          >
+            Pesquisar
+          </button>
+        </form>
+      </section>
+
+      <section
+        id="tempo-info"
+        class="flex items-center justify-between gap-6 bg-[#181c2a] rounded-xl p-6 shadow-lg min-h-[80px]"
+      ></section>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
